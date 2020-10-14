@@ -24,7 +24,7 @@ public class BinarySearchTree<K extends Comparable<K>> {
 				currentRoot.setRight(addRecursively(currentRoot.getRight(),key));
 			return currentRoot;
 		}
-	}
+	}	
 	public int getSize() {
 		return getSizeRecursively(root);
 	}
