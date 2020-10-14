@@ -9,5 +9,4 @@ public interface INode<K> {
 	
 	public INode getLeft();
 	public INode getRight();
-	
 }
